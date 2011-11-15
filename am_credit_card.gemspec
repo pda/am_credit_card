@@ -15,4 +15,7 @@ Gem::Specification.new do |gem|
   gem.name          = "am_credit_card"
   gem.require_paths = ["lib"]
   gem.version       = AmCreditCard::VERSION
+
+  gem.add_dependency('activesupport', '>= 2.3.11')
+  gem.add_dependency('i18n')
 end
