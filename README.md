@@ -22,26 +22,26 @@ ActiveMerchant has [nice credit card validations][1], but also lots of [dependen
 Usage
 -----
 
-    ```ruby
-    # Gemfile
-    gem "am_credit_card"
-    ```
+```ruby
+# Gemfile
+gem "am_credit_card"
+```
 
-    ```ruby
-    # Instantiation
-    card = ActiveMerchant::Billing::CreditCard.new(
-      :first_name         => "Bob",
-      :last_name          => "Bobsen",
-      :number             => "4242424242424242",
-      :month              => "8",
-      :year               => "2012",
-      :verification_value => "123"
-    )
+```ruby
+# Instantiation
+card = ActiveMerchant::Billing::CreditCard.new(
+  :first_name         => "Bob",
+  :last_name          => "Bobsen",
+  :number             => "4242424242424242",
+  :month              => "8",
+  :year               => "2012",
+  :verification_value => "123"
+)
 
-    # Validation
-    card.valid?
-    card.errors
-    ```
+# Validation
+card.valid?
+card.errors
+```
 
 
 License
