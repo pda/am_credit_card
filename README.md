@@ -7,7 +7,7 @@ am_credit_card
 [2]: http://activemerchant.rubyforge.org/
 
 
-[![http://travis-ci.org/pda/am_credit_card.png](http://travis-ci.org/pda/am_credit_card.png)](http://travis-ci.org/#!/pda/am_credit_card)
+[![https://secure.travis-ci.org/pda/am_credit_card.png](https://secure.travis-ci.org/pda/am_credit_card.png)](http://travis-ci.org/#!/pda/am_credit_card)
 
 
 Why?
