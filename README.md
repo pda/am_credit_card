@@ -10,7 +10,7 @@ Why?
 ----
 
 ActiveMerchant has [nice credit card validations][3], but also lots of [dependencies][4] and other code.
-That's fine for those using the rest of ActiveMerchant, but if you're just after it's credit card model/validations, this is for you.
+That's fine for those using the rest of ActiveMerchant, but if you're just after its credit card model/validations, this is for you.
 
 
 Usage
